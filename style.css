@@ -1,0 +1,15 @@
+h1 {
+
+  text-align: center;
+
+}
+
+body {
+  background-color: hsla(50, 20%, 60%, 0.3);
+}
+
+p.inset {border-style: inset;}
+
+body{
+  font-family: Arial, Helvetica, sans-serif;
+}
