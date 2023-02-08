@@ -6,43 +6,138 @@
   background-color: #253342;
   }
         >
-    <h1>Stock Markets Movement Prediction and Equity Price Relationships with Neural Network (or Graph Neural Network)</h1>
+    
+    <h1>Stock Market Movement Prediction</h1>
     <img src="https://www.thestreet.com/.image/ar_4:3%2Cc_fill%2Ccs_srgb%2Cfl_progressive%2Cq_auto:good%2Cw_1200/MTY3NTM5MzU2NjcwNTY4MzM0/best-and-worst-closed-end-funds.jpg" alt="stockmovementimg">
     
-    <h2>Introduction</h2>
-    <p>Predicting the stock markets movements are of great interests for hedge fund, quants fund and also investors. Financial Securities firms try to 
-      develop the algorithm that automatically trades with information from news articles, data, and markets trends. Some hedge/quants fund experience increase
-      of their markets, and computational analysis are developing rapidly.
-      (Note that, it is nearly impossible to deal with outliers with algorithm or neural networks, known as "Black Swan" markets theory. 
-      Also as presented in "random walk theory," it is impossible to predict the precise price movement with a huge amount of noises. ) 
-      
-      <h2>Project Description</h2>
-    <p>We solely focus on the technical analysis (analysis on the past markets data) in this project, and aim to predict
-    </p>
-    <ol type="1">
-      <li>up/down for the equity and possibly how much</li>
-      <li>fluctuations of stock markets</li>
-      <li>directions/trends of stock markets</li>
-      <li>possibly day-to-day trend for more practical use in the context of making decisions for investments in the longer span</li>
-      <li>(For graph neural network) visualize the relationships between each stock</li>
-      
+    <h2>Project Members</h2>
+       <ol type="1">
+      <li>Riki Imai</li>
+      <li>Hadi Al Musa</li>
+      <li>Anan Aramthanapon</li>
+      <li>Andrew Yu</li>
+      <li>Cassidy Liu</li>
     </ol>
     
-    <p>This project will utilize the Public Datasets (PDS) from actual markets, such as JPX (link: https://quote.jpx.co.jp/jpx/template/quote.cgi?F=tmp/e_stock_search),
-      build a model for prediciton, and see how accurately our model can predict the price at the end. I also expect to focus on a specific industry, 
-      or even for a few companies in the industry since it is generally difficult to build a universal model for all stock markets prediction all at once.
+      <h2>Outline</h2>
+    <h3>Introduction:</h3>
+     <p>Predicting the stock markets movements are of great interest for hedge fund, quants fund and also investors. 
+       Financial Securities firms try to develop algorithms that automatically trades with information from news articles, 
+       data, and market trends. Some hedge/quants funds experience an increase in their markets, and computational analysis 
+       is developing rapidly. (Note that, it is nearly impossible to deal with outliers with algorithms or neural networks, 
+       known as "Black Swan" market theory. Also as presented in "random walk theory," it is impossible to predict the precise 
+       price movement with a huge amount of noises.)
+    </p>
+
+    <h3>Background:</h3>
+    <p>Automating the Prediction of stock market fluctuations has been a difficult matter to a lot of companies trying to do 
+      so, mainly because of the amount of factors that can affect stock changes and make predicting them perfectly nearly impossible.
+      For example, Eli Lily’s stock dived down after a fake twitter account impersonating them tweeted with the promise of free insulin. 
+      Such events create the difficulty of predicting daily stock changes.
     </p>
     
+    <h3>Transition:</h3>
+    <p>The main issue with predicting the stock market is that it does not always follow quantitative data, and changes seem illogical a 
+      lot of times. The problem with this is there is not a publicly available solution to this issue, and hedge funds cannot reveal their 
+      strategies to deal with this seemingly-illogical behavior as it is their method of making money. In this project, we will research more 
+      about this behavior and try to increase our accuracy by attempting to include this behavior in our model.
+    </p>
     
-    <h2>Project Goals</h2>
-    <ol type="1">
-      <li>Predict the possible stock movement and its effect onto the other stocks in the industry</li>
-      <li>Train a Neural-Network model for the prediction</li>
-      <li>Apply it to a real-world datasets</li>
-      <li>Utilize this model for making decisions for investments on stock markets</li>
-      <li>Possibly identify the relationships across the different stocks in the same industry (with graph neural network)</li>
-      <li>Try investing on a website (https://www.marketwatch.com/games) to see how much we would earn using this model</li>
-    </ol>
+    <h3>Details:</h3>
+    <p>One of the technical challenges that we will have to overcome is finding an accurate dataset as our prediction model heavily depends 
+      on the completeness of the dataset. Finding a perfect dataset will be difficult but crucial to the project.
+    </p>
+    
+    <h3>Assessment:</h3>
+    <p>Our main goal is to achieve a working model while maximizing the accuracy as much as we can. If time allows, we would like to 
+      try our model on actual stock markets with this website (https://www.marketwatch.com/games).
+    </p>
+    
+    <h2>Ethical Sweep:</h2>
+    <h3>General Questions:</h3>
+    <ul style="list-style-type:none">
+      <li>Should we even be doing this?</li>
+      <ul style="list-style-type:none">
+            <li>It will be useful to see how the company might grow and 
+                analyze what the audience thinks about the company, because
+                stock markets are where all the opinions and information will
+                merge and be reflected.</li>
+          </ul>
+      <li>What might be the accuracy of a simple non-ML alternative?</li>
+        <ul style="list-style-type:none">
+              <li>50%</li>
+        </ul>
+      <li>What processes will we use to handle appeals/mistakes?</li>
+      <ul style="list-style-type:none">
+            <li>By nature, there are a lot of imperfections with trying to 
+              predict the stock market (“random walk theory”). However, we 
+              will try to get the most accurate average prediction line we 
+              can get.
+        </li>
+      </ul>
+      <li>How diverse is our team?</li>
+      <ul style="list-style-type:none">
+            <li>Everyone comes from the different background and interests.</li>
+          </ul>
+      </ul>
+    
+    <h3>Data Questions:</h3>
+    <ul style="list-style-type:none">
+      <li>Is our data valid for its intended use?</li>
+      <ul style="list-style-type:none">
+            <li>There is the Public Datasets (PDS) that has actual markets data, 
+              such as JPX and Deutsche Börse Public Dataset, which is publicly 
+              accessible and can be used in the research as seen in 
+              https://www.originate.com/thinking/predicting-stock-market-movements-using-a-neural-network
+        </li>
+          </ul>
+      <li>What bias could be in our data? (All data contains bias.)</li>
+        <ul style="list-style-type:none">
+              <li>Not biased with the data itself, but data itself contains “bias”, but 
+                does not seem impactful in nature; the stock price moves with selling/buying
+                the stocks, which are done by humans with bias.
+          </li>
+        </ul>
+      <li>How could we minimize bias in our data and model?</li>
+      <ul style="list-style-type:none">
+            <li>We do not do anything to minimize bias in our data since the stock 
+              market already reflects these in themselves.
+        </li>
+      </ul>
+      <li>How should we “audit” our code and data?</li>
+      <ul style="list-style-type:none">
+            <li>By setting code reviews after each major progress point for the project.</li>
+          </ul>
+      </ul>
+    
+    
+    <h3>Impact Questions:</h3>
+    <ul style="list-style-type:none">
+      <li>Do we expect different error rates for different sub-groups in the data?</li>
+      <ul style="list-style-type:none">
+            <li>We expect there is a variety of movement patterns depending on the industry 
+              and companies’ stocks that we will look for in nature. For this reason, we will 
+              first try to focus on a handful of companies in a single industry and expand the 
+              number possibly.
+        </li>
+          </ul>
+      <li>What are likely misinterpretations of the results and what can be done to prevent those misinterpretations?</li>
+        <ul style="list-style-type:none">
+              <li>Stock market data contains noises. By this nature, we might misinterpret 
+                the randomness of data as “predicting correctly.” To avoid this, we will 
+                mention how financial markets can be random sometimes by sharing some theories 
+                established.
+          </li>
+        </ul>
+      <li>How might we impinge individuals' privacy and/or anonymity?</li>
+      <ul style="list-style-type:none">
+            <li>The stock market prices do not reflect anyone’s privacy and are kept anonymous 
+              since there is no way to tell who makes the trading from quantitative stock market data.
+        </li>
+      </ul>
+     </ul>
+    
+  
     
     <h2>Some previous works/information include</h2>
     <ol type="2">
@@ -51,6 +146,5 @@
       <li>https://journalofbigdata.springeropen.com/articles/10.1186/s40537-020-00333-6</li>
     </ol>
   </body>
-  
   
 </html>
