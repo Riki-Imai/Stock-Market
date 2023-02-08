@@ -1,15 +1,11 @@
 h1 {
-
   text-align: center;
-
 }
 
 body {
-  background-color: hsla(50, 20%, 60%, 0.3);
+  background-color: hsla(70, 20%, 60%, 0.3);
+  padding: 35px;
+  font-family: Arial, Helvetica, sans-serif;
 }
 
 p.inset {border-style: inset;}
-
-body{
-  font-family: Arial, Helvetica, sans-serif;
-}
