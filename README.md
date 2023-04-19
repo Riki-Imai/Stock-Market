@@ -89,4 +89,9 @@ By focusing on these areas for future work, we can continue to refine and improv
 
 Looking back on the project, we recognize several areas where we could make improvements in future iterations. Firstly, we would invest more time and effort in exploring additional data sources such as social media sentiment, economic indicators, and company financial reports to build a more comprehensive dataset. This could potentially lead to a more accurate prediction model. Secondly, experimenting with different model architectures and techniques could have potentially improved the performance of our stock market predictor. In the future, we would consider exploring alternative deep learning architectures, such as transformers or attention mechanisms, and incorporating ensemble methods to enhance the model's performance. Finally, we would allocate more time for fine-tuning hyperparameters, as this could have a significant impact on the accuracy of our predictions.
  
+ Works Cited
+ 
+ 
+
+
 
