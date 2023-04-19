@@ -34,7 +34,7 @@ During the training phase, we can experiment with various hyperparameters, such 
 
 Results
 
-In our initial implementation of the LSTM-based stock market prediction model, we observed that the accuracy was not as high as anticipated. The reasons for this could be the limited amount of input features, the choice of hyperparameters, and the inherent complexity of stock market data. However, the preliminary results still demonstrated the potential of LSTM neural networks in capturing the patterns and trends in stock market time series data.
+In our initial implementation of the LSTM-based stock market prediction model, we observed that the accuracy was not as high as anticipated. The reasons for this could be the limited amount of input features, the choice of hyperparameters, and the inherent complexity of stock market data. However, the preliminary results still demonstrated the potential of LSTM neural networks in capturing the patterns and trends in stock market time series data. We will modify the timeframe to have more accuracy for prediction.
 
 During the evaluation phase, we noticed that the model's predictions were more accurate for some stocks compared to others. This could be attributed to the varying levels of volatility and predictability in different stocks, as well as the specific timeframes chosen for training and testing. Furthermore, we observed that the model performed better in predicting the overall trend of stock prices rather than the exact values.
 
