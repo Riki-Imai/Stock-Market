@@ -89,8 +89,40 @@ By focusing on these areas for future work, we can continue to refine and improv
 
 Looking back on the project, we recognize several areas where we could make improvements in future iterations. Firstly, we would invest more time and effort in exploring additional data sources such as social media sentiment, economic indicators, and company financial reports to build a more comprehensive dataset. This could potentially lead to a more accurate prediction model. Secondly, experimenting with different model architectures and techniques could have potentially improved the performance of our stock market predictor. In the future, we would consider exploring alternative deep learning architectures, such as transformers or attention mechanisms, and incorporating ensemble methods to enhance the model's performance. Finally, we would allocate more time for fine-tuning hyperparameters, as this could have a significant impact on the accuracy of our predictions.
  
- Works Cited
- 
+Works Cited
+
+Chandra, R., & He, Y. (2021). Bayesian neural networks for stock price forecasting before and during COVID-19 pandemic. PLOS ONE, 16(7). https://doi.org/10.1371/journal.pone.0253217 
+
+Costa, D. F., Carvalho, F. de, & Moreira, B. C. (2018). Behavioral Economics and behavioral finance: A bibliometric analysis of the scientific fields. Journal of Economic Surveys, 33(1), 3–24. https://doi.org/10.1111/joes.12262 
+
+Das, D., & Shorif Uddin, M. (2013). Data Mining and neural network techniques in stock market prediction : A methodological review. International Journal of Artificial Intelligence & Applications, 4(1), 117–127. https://doi.org/10.5121/ijaia.2013.4109 
+
+De Bortoli, D., da Costa, N., Goulart, M., & Campara, J. (2019). Personality traits and investor profile analysis: A behavioral finance study. PLOS ONE, 14(3). https://doi.org/10.1371/journal.pone.0214062 
+
+Devadoss, V. A., & Ligori, A. A. (2013). Stock prediction using Artificial Neural Networks. International Journal of Web Technology, 002(002), 45–51. https://doi.org/10.20894/ijwt.104.002.002.005 
+
+Hirshleifer, D. (2015). Behavioral finance. Annual Review of Financial Economics, 7(1), 133–159. https://doi.org/10.1146/annurev-financial-092214-043752 
+
+huseinzol05. (n.d.). Huseinzol05/stock-prediction-models: Gathers Machine Learning and deep learning models for stock forecasting including trading bots and simulations. GitHub. Retrieved April 18, 2023, from https://github.com/huseinzol05/Stock-Prediction-Models 
+
+IMF. (2023, April 11). Global Financial Stability Report, April 2023. Global Financial Stability Report. Retrieved April 13, 2023, from https://www.imf.org/en/Publications/GFSR/Issues/2023/04/11/global-financial-stability-report-april-2023 
+
+Naeini, M. P., Taremian, H., & Hashemi, H. B. (2010). Stock market value prediction using neural networks. 2010 International Conference on Computer Information Systems and Industrial Management Applications (CISIM). https://doi.org/10.1109/cisim.2010.5643675 
+
+Originate. (n.d.). Retrieved February 28, 2023, from https://www.originate.com/thinking/predicting-stock-market-movements-using-a-neural-network https://github.com/Originate/dbg-pds-tensorflow-demo 
+
+RK, D., & DD, P. (2010). Application of artificial neural network for stock market predictions: A review of literature. International Journal of Machine Intelligence, 2(2), 14–17. https://doi.org/10.9735/0975-2927.2.2.14-17 
+
+Sharma, A., & Kumar, A. (2019). A Review Paper on Behavioral Finance: Study of Emerging Trends. Qualitative Research in Financial Markets, 12(2), 137–157. https://doi.org/10.1108/qrfm-06-2017-0050 
+
+Shen, J., & Shafiq, M. O. (2020). Short-term stock market price trend prediction using a comprehensive deep learning system.Journal of Big Data, 7 (1). https://doi.org/10.1186/s40537-020-00333-6 
+
+Vijh, M., Chandola, D., Tikkiwal, V. A., & Kumar, A. (2020). Stock closing price prediction using Machine Learning Techniques. Procedia Computer Science, 167, 599–606. https://doi.org/10.1016/j.procs.2020.03.326 
+
+Vonko, D. (2022, July 8). Neural networks: Forecasting profits. Investopedia. Retrieved February 28, 2023, from https://www.investopedia.com/articles/trading/06/neuralnetworks.asp 
+
+YouTube. (2022, May 23). Predict the stock market with machine learning and python. YouTube. Retrieved February 28, 2023, from https://www.youtube.com/watch?v=1O_BenficgE&ab_channel=Dataquest 
+
  
 
 
