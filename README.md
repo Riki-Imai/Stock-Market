@@ -85,6 +85,10 @@ Addressing overfitting and advanced regularization: By tackling the issue of ove
 
 8- Integrating the model into a user-friendly platform: As the final step, we can work on integrating our refined stock market prediction model into a user-friendly platform or application. This would enable a broader audience to access and benefit from our model's predictions, making the stock market more approachable and understandable for both seasoned investors and novices alike.
 
+9- Trading limits: We only make a single trade a day based on the decision made by comparison between actual endprice from the day before and predicted price for the day. We do not consider the options to hold, so that is one thing we might incorporate in the future work of long-holding stocks.
+
+10- Transaction costs: We do not consider the transaction costs as real stock market life.
+
 By focusing on these areas for future work, we can continue to refine and improve our stock market prediction model, ultimately providing valuable insights and tools to investors, financial analysts, and researchers in the field of finance.
 
 Looking back on the project, we recognize several areas where we could make improvements in future iterations. Firstly, we would invest more time and effort in exploring additional data sources such as social media sentiment, economic indicators, and company financial reports to build a more comprehensive dataset. This could potentially lead to a more accurate prediction model. Secondly, experimenting with different model architectures and techniques could have potentially improved the performance of our stock market predictor. In the future, we would consider exploring alternative deep learning architectures, such as transformers or attention mechanisms, and incorporating ensemble methods to enhance the model's performance. Finally, we would allocate more time for fine-tuning hyperparameters, as this could have a significant impact on the accuracy of our predictions.
