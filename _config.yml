@@ -13,5 +13,5 @@ color_theme: auto                     # color theme auto, dark or light
 
 header_text: Stock Market Predictor
 footer_text: Copyright 2023
-header_feature_image: assets/img/header/my-header-image.png
+header_feature_image: https://www.thestreet.com/.image/ar_4:3%2Cc_fill%2Ccs_srgb%2Cfl_progressive%2Cq_auto:good%2Cw_1200/MTY3NTM5MzU2NjcwNTY4MzM0/best-and-worst-closed-end-funds.jpg" alt="stockmovementimg
 header_feature_image_responsive: true
