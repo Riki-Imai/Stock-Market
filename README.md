@@ -111,7 +111,11 @@ huseinzol05. (n.d.). Huseinzol05/stock-prediction-models: Gathers Machine Learni
 
 IMF. (2023, April 11). Global Financial Stability Report, April 2023. Global Financial Stability Report. Retrieved April 13, 2023, from https://www.imf.org/en/Publications/GFSR/Issues/2023/04/11/global-financial-stability-report-april-2023 
 
+Lee, B. Y. (2022, November 14). Fake Eli Lilly Twitter account claims insulin is free, stock falls 4.37%. Forbes. Retrieved May 1, 2023, from https://www.forbes.com/sites/brucelee/2022/11/12/fake-eli-lilly-twitter-account-claims-insulin-is-free-stock-falls-43/?sh=482ad98241a3 
+
 Naeini, M. P., Taremian, H., & Hashemi, H. B. (2010). Stock market value prediction using neural networks. 2010 International Conference on Computer Information Systems and Industrial Management Applications (CISIM). https://doi.org/10.1109/cisim.2010.5643675 
+
+New York Times. (2023). Parent company of silicon valley bank files for bankruptcy - New York Times. Retrieved May 2, 2023, from https://www.nytimes.com/2023/03/17/business/svb-silicon-valley-bank-bankruptcy.html 
 
 Originate. (n.d.). Retrieved February 28, 2023, from https://www.originate.com/thinking/predicting-stock-market-movements-using-a-neural-network https://github.com/Originate/dbg-pds-tensorflow-demo 
 
