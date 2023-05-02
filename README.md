@@ -144,7 +144,30 @@ During the evaluation phase, we noticed that the model's predictions were more a
 
 Based on predicted prices and actual prices with recommended actions, our program accomplished around 2.7% to 8.7% gains, with accuracy ranging from 96% to 98%. This model usually has the highest return for the first day of prediction because uncertainty increases as the day progresses from model data.
 
-Hyperparameter comparison
+### Hyperparameter comparison:
+We found that these hyperparameter works best for the range of 2022-11-01 to 2022-12-01. Further optimization might improve these results as well.
+<table>
+	<tbody>
+		<tr>
+			<th>Train/Validation Split Ratio</th>
+			<th>Batch Size</th>
+			<th>Number of Epochs</th>
+			<th>Learning Rate</th>
+			<th>Hidden Size (units in each LSTM cell)</th>
+      <th>Number of Layers</th>
+      <th>Dropout</th>
+		</tr>
+    <tr>
+			<th>0.8</th>
+			<th>64</th>
+			<th>300</th>
+			<th>0.01</th>
+			<th>64</th>
+      <th>2</th>
+      <th>0.8</th>
+		</tr>
+	</tbody>
+</table>
 
 
 # Discussion
