@@ -1,3 +1,7 @@
+# Stock Market Prediction by LSTM Neural Network
+### by Riki Imai, Hadi Al Musa
+
+
 # Table of Contents
 I. [Abstract](#abstract)
 
