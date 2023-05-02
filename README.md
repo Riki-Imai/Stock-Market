@@ -180,4 +180,4 @@ Looking back on the project, we recognize several areas where we could improve i
 
 [^17]: Vonko, D. (2022, July 8). Neural networks: Forecasting profits. Investopedia. Retrieved February 28, 2023, from https://www.investopedia.com/articles/trading/06/neuralnetworks.asp 
 
-[^18: ]YouTube. (2022, May 23). Predict the stock market with machine learning and python. YouTube. Retrieved February 28, 2023, from https://www.youtube.com/watch?v=1O_BenficgE&ab_channel=Dataquest 
+[^18]: YouTube. (2022, May 23). Predict the stock market with machine learning and python. YouTube. Retrieved February 28, 2023, from https://www.youtube.com/watch?v=1O_BenficgE&ab_channel=Dataquest 
