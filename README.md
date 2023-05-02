@@ -1,8 +1,8 @@
-#Abstract
+# Abstract
 
 Stock market prediction is an interest to many investors. With new technologies and the rapid spread of information through social media, an event in one place would affect other parts of the world easily but also poses insights for better stock market prediction (IMF, 2023), such as the sentiment analysis on Twitter having been effective. This project attempts to predict the stock market prices with Recurrent Neural Network (RNN) based on the stock prices data taken from Yahoo Finance. The performance of this model successfully accomplished in the range from about 2% to 8.7% gains for 7-day transactions, depending on the different stocks. We solely depend on the market prices as data for building the stock market prediction model, but future work will incorporate other measures such as sentiments and also various ways to trade, including futures, options, etc.
 
-#Introduction
+# Introduction
 
 Stock market prediction has always been a topic of interest for investors, financial analysts, and researchers. In recent years, with the growth of machine learning and deep learning, the use of neural networks (NN) for stock market prediction has gained significant attention. NN are computational models that can be trained to recognize patterns and trends in data and can be used to make predictions based on past performance.
 
@@ -20,7 +20,7 @@ With these factors playing a huge role in the stock market, there has been the o
 
 Given the past closing price data for a month, we intend to predict the market price for the next 7 days for multiple stocks, including index funds (S&P500, DOW, etc.) and also each stock. Our program differs from others for 1) it could work with any stocks of your choice; most past programs primarily focused on predicting the specific stock or industry.
 
-#Related Works
+# Related Works
 
 In recent years, various studies have explored the application of artificial neural networks (ANNs) for stock market prediction. One such study proposes the use of ANNs to predict stock prices, as these networks can recognize patterns and trends in data and can be trained to make accurate predictions based on past performance [1]. The accuracy of ANNs in predicting stock prices is affected by various factors such as the network's architecture, the number of hidden layers and nodes, and the activation function used [1]. The study also suggests that incorporating more data, such as news and social media sentiment, economic indicators, and company financial reports, can improve the accuracy of stock price predictions, highlighting the need for ongoing research in this area [1].
 
@@ -30,7 +30,7 @@ References:
 [1] https://pdfs.semanticscholar.org/cd14/01d1ffda5e202e4e2af07ba263ec96b2dbb2.pdf
 [2] https://www.originate.com/thinking/predicting-stock-market-movements-using-a-neural-network
 
-#Method
+# Method
 
 We use Pytorch and TensorFlow for creating this predictor from scratch. The real stock market data taken from Yahoo Finance has been utilized in this research. The model uses a simple LSTM (Long Short-Term Memory) neural network. LSTM is a type of RNN that can capture long-range dependencies in a sequence, making it suitable for time series data like stock prices. 
 
@@ -46,7 +46,7 @@ For the actual transaction, we assume to make a decision a day with the closing 
 
 Our predictor currently only accepts the Stock name as an input and predicts the expected price from December 2nd, 2022, but future development will allow a specific timeframe you would like to predict the stock prices.
 
-#Results
+# Results
 
 We accomplished an accuracy of about 96 to 98% accuracy depending on the different stocks. 
 For example, our stock market predictor yields 4.715958510247087 % gains for S&P500 with an accuracy of 98.39800710345172 % over the assumed 7-day transaction; Dow Jones Industrial Average: 2.777528127483042 % gains with its accuracy of 98.9430870054851 %; NASDAQ: 6.419393572074417 % gains with its accuracy of 97.9430269653437%. 
@@ -62,7 +62,7 @@ Based on predicted prices and actual prices with recommended actions, our progra
 Hyperparameter comparison
 
 
-#Discussion
+# Discussion
 
 The results of our stock market prediction model serve as a stepping stone for further exploration and development of LSTM-based models for financial time series forecasting. Our experience with this model has highlighted several areas of potential improvement, which could lead to a significant enhancement in prediction accuracy.
 
@@ -74,13 +74,13 @@ Another crucial aspect to consider is the role of uncertainty in stock market pr
 
 Lastly, addressing the issue of overfitting and exploring advanced regularization techniques could contribute to better generalization of the model. This would result in more reliable predictions when applied to new, unseen data.
 
-#Conclusion
+# Conclusion
 
 The challenges associated with stock market prediction, such as the complex interactions between various factors influencing stock prices, make this task inherently difficult. When there are unexpected events, this model will find it hard to predict such an occasion as a NN model. This model, however, captures the patterns and will likely catch these dropping trends for example. We are not certain how much this could benefit such an irregular occasion, but generally predicts the trend of stocks and yields a favorable return only with a transaction a day.
 
 With further improvements, our model could become a valuable tool for investors, financial analysts, and researchers in making more informed decisions. Our future work will include different ways of transactions such as Options and Future, multiple parameters, more detailed price movements such as a-minute price, and allow more than one daily transaction. This also does not consider the transaction cost yet, and future work will have a recommended action to “hold” instead of “buy” or “sell.”
 
-#Ethics
+# Ethics
 
 When considering the ethics of our project, it is important to address several questions and concerns. The question of whether we should even be attempting to predict the stock market is relevant. However, understanding the potential growth of a company and analyzing the audience's perception can be useful, as the stock market reflects various opinions and information.
 
@@ -94,7 +94,7 @@ Misinterpretations of results can be an issue, particularly since stock market d
 
 Lastly, the issue of privacy and anonymity is crucial. Stock market prices do not reflect individuals' personal information and remain anonymous, as there is no way to determine who is responsible for specific trades using only quantitative stock market data. This ensures that our project does not infringe on individuals' privacy or anonymity.
 
-#Future work and Reflection
+# Future work and Reflection
 
 To enhance the performance of our LSTM-based stock market prediction model, future work should focus on the following areas:
 
@@ -123,7 +123,7 @@ By focusing on these areas for future work, we can continue to refine and improv
 
 Looking back on the project, we recognize several areas where we could improve in future iterations. Firstly, we would invest more time and effort in exploring additional data sources such as social media sentiment, economic indicators, and company financial reports to build a more comprehensive dataset. This could potentially lead to a more accurate prediction model. Secondly, experimenting with different model architectures and techniques could have potentially improved the performance of our stock market predictor. In the future, we would consider exploring alternative deep learning architectures, such as transformers or attention mechanisms, and incorporating ensemble methods to enhance the model's performance. Finally, we would allocate more time for fine-tuning hyperparameters, as this could significantly impact our predictions’ accuracy.
 
-#Works Cited
+# Works Cited
 
 Chandra, R., & He, Y. (2021). Bayesian neural networks for stock price forecasting before and during COVID-19 pandemic. PLOS ONE, 16(7). https://doi.org/10.1371/journal.pone.0253217 
 
