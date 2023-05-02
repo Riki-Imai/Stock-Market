@@ -1,30 +1,3 @@
-# BLOG CONFIGURATION
-post_navigation: true
-paginate: 10
-paginate_path: "blog/page:num"
-plugins: [jekyll-paginate, jekyll-seo-tag, jekyll-feed]
-
-title: Stock Market Prediction        
-description: Stock Market Prediction using AI         
-color_theme: auto                     
-
-# HEADER CONFIGURATION
-header:
-  text: Stock Market Predictor
-  feature_image: https://www.thestreet.com/.image/ar_4:3%2Cc_fill%2Ccs_srgb%2Cfl_progressive%2Cq_auto:good%2Cw_1200/MTY3NTM5MzU2NjcwNTY4MzM0/best-and-worst-closed-end-funds.jpg
-  feature_image_responsive: true
-
-# FOOTER CONFIGURATION
-footer:
-  text: Copyright 2023
-
-# THEME CONFIGURATION
 theme: jekyll-paginate
-minima:
-  skin: "default"
-
-# SEO CONFIGURATION
-seo:
-  title: Stock Market Prediction
-  description: Stock Market Prediction using AI
-  image: https://www.thestreet.com/.image/ar_4:3%2Cc_fill%2Ccs_srgb%2Cfl_progressive%2Cq_auto:good%2Cw_1200/MTY3NTM5MzU2NjcwNTY4MzM0/best-and-worst-closed-end-funds.jpg
+title: Stock Market Prediction by LSTM Neural Network
+description: by Riki Imai, Hadi Al Musa
