@@ -1,4 +1,4 @@
-Abstract
+<head>Abstract</head>
 
 Stock market prediction is an interest for many investors. With new technologies and the rapid spread of information through social media, an event in one place would affect the other parts of the world easily, but also poses the insights for better stock market prediction (IMF, 2023), such as the sentiment analysis on Twitter having been effective. This project attempts to predict the stock market prices with Recurrent Neural Network (RNN) based on the stock prices data taken from Yahoo finance. The performance of this model successfully accomplished 9.5% gains on S&P 500 at the most, and 97% accuracy. We solely depend on the market prices as data for building the stock market prediction model, but the future work will incorporate other measures such as sentiments, and also various ways to trade including futures, options, etc.
 
