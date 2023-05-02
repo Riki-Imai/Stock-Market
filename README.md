@@ -147,17 +147,11 @@ For the specific stocks, here are a few of the results from our predictor.
 </table>
 
 ### Graph
-<div align="center">
-	<strong>
-		Figure 1: S&P500
-	</strong>
-</div>
-
 ![Figure 1: S&P500](/Images/SP500.jpeg)
 
 <div align="center">
 	<strong>
-		Figure 2: Dow Jones Industrial Average
+		Figure 1: S&P500
 	</strong>
 </div>
 
@@ -165,7 +159,7 @@ For the specific stocks, here are a few of the results from our predictor.
 
 <div align="center">
 	<strong>
-		Figure 3: NASDAQ
+		Figure 2: Dow Jones Industrial Average
 	</strong>
 </div>
 
@@ -173,7 +167,7 @@ For the specific stocks, here are a few of the results from our predictor.
 
 <div align="center">
 	<strong>
-		Figure 4: Apple (AAPL)
+		Figure 3: NASDAQ
 	</strong>
 </div>
 
@@ -181,11 +175,19 @@ For the specific stocks, here are a few of the results from our predictor.
 
 <div align="center">
 	<strong>
-		Figure 5: Alphabet Inc. (GOOG)
+		Figure 4: Apple (AAPL)
 	</strong>
 </div>
 
 ![Figure 5: Alphabet Inc. (GOOG)](/Images/Google.jpeg)
+
+<div align="center">
+	<strong>
+		Figure 5: Alphabet Inc. (GOOG)
+	</strong>
+</div>
+
+
 
 During the evaluation phase, we noticed that the model's predictions were more accurate for some stocks than others. This could be attributed to the varying levels of volatility and predictability in different stocks, as well as the specific timeframes chosen for training and testing. Furthermore, we observed that the model performed better in predicting the overall trend of stock prices rather than the exact values.
 
