@@ -93,6 +93,7 @@ Our predictor currently only accepts the Stock name as an input and predicts the
 We accomplished an accuracy of about 96 to 98% accuracy depending on the different stocks. 
 For example, here is our results for some index funds.
 
+### Index
 <table>
 	<tbody>
 		<tr>
@@ -118,6 +119,7 @@ For example, here is our results for some index funds.
 	</tbody>
 </table>
 
+### Stocks
 For the specific stocks, here are a few of the results from our predictor. 
 
 <table>
