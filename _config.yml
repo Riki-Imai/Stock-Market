@@ -4,9 +4,9 @@ paginate: 10
 paginate_path: "blog/page:num"
 plugins: [jekyll-paginate, jekyll-seo-tag, jekyll-feed]
 
-title: Stock Market Prediction          # Name of website
-description: Stock Market Prediction using AI          # Short description, primarily used by search engines
-color_theme: auto                      # color theme auto, dark or light
+title: Stock Market Prediction        
+description: Stock Market Prediction using AI         
+color_theme: auto                     
 
 # HEADER CONFIGURATION
 header:
@@ -28,7 +28,3 @@ seo:
   title: Stock Market Prediction
   description: Stock Market Prediction using AI
   image: https://www.thestreet.com/.image/ar_4:3%2Cc_fill%2Ccs_srgb%2Cfl_progressive%2Cq_auto:good%2Cw_1200/MTY3NTM5MzU2NjcwNTY4MzM0/best-and-worst-closed-end-funds.jpg
-
-# EXTERNAL FILES CONFIGURATION
-# favicon: assets/favicon.ico           # Uncomment this line and provide the path to your favicon if you want one
-# avatar: assets/img/avatar.png         # Uncomment this line and provide the path to your avatar if you want one
