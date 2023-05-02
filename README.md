@@ -93,6 +93,13 @@ Our predictor currently only accepts the Stock name as an input and predicts the
 We accomplished an accuracy of about 96 to 98% accuracy depending on the different stocks. 
 For example, here is our results for some index funds.
 
+## Graph
+![Figure 1: S&P500](/Images/SP500.jpeg)
+![Figure 2: Dow Jones Industrial Average](/Images/DJI.jpeg)
+![Figure 3: NASDAQ](/Images/NASDAQ.jpeg)
+![Figure 4: Apple (AAPL)](/Images/Apple.jpeg)
+![Figure 5: Alphabet Inc. (GOOG)](/Images/Google.jpeg)
+
 ### Index
 <table>
 	<tbody>
