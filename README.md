@@ -1,3 +1,24 @@
+# Table of Contents
+I. [Abstract](#abstract)
+
+II. [Introduction](#introduction)
+
+II. [Related Works](#related-works)
+
+III. [Methods](#methods)
+
+IV. [Results](#results)
+
+V. [Discussion](#discussion)
+
+VI. [Conclusion](#conclusion)
+
+VII. [Ethics](#ethics)
+
+VIII. [Future Work and Reflection](#future-work-and-reflection)
+
+IX. [Works Cited](#works-cited)
+
 # Abstract
 
 Stock market prediction is an interest to many investors. With new technologies and the rapid spread of information through social media, an event in one place would affect other parts of the world easily but also poses insights for better stock market prediction (IMF, 2023), such as the sentiment analysis on Twitter having been effective. This project attempts to predict the stock market prices with Recurrent Neural Network (RNN) based on the stock prices data taken from Yahoo Finance. The performance of this model successfully accomplished in the range from about 2% to 8.7% gains for 7-day transactions, depending on the different stocks. We solely depend on the market prices as data for building the stock market prediction model, but future work will incorporate other measures such as sentiments and also various ways to trade, including futures, options, etc.
@@ -30,7 +51,7 @@ References:
 [1] https://pdfs.semanticscholar.org/cd14/01d1ffda5e202e4e2af07ba263ec96b2dbb2.pdf
 [2] https://www.originate.com/thinking/predicting-stock-market-movements-using-a-neural-network
 
-# Method
+# Methods
 
 We use Pytorch and TensorFlow for creating this predictor from scratch. The real stock market data taken from Yahoo Finance has been utilized in this research. The model uses a simple LSTM (Long Short-Term Memory) neural network. LSTM is a type of RNN that can capture long-range dependencies in a sequence, making it suitable for time series data like stock prices. 
 
@@ -98,26 +119,26 @@ Lastly, the issue of privacy and anonymity is crucial. Stock market prices do no
 
 To enhance the performance of our LSTM-based stock market prediction model, future work should focus on the following areas:
 
-1- Fine-tuning the model's hyperparameters: Experimenting with different network architectures, hidden units, dropout rates, and other hyperparameters can potentially improve the model's prediction accuracy. In addition, some near-future adjustments we plan to make include but are not limited to: Changing the time slot for the training data collection, experimenting with low-high volatility companies, adding sell/buy action recommendations, and including various trading ways, such as futures, options, etc.
+1. Fine-tuning the model's hyperparameters: Experimenting with different network architectures, hidden units, dropout rates, and other hyperparameters can potentially improve the model's prediction accuracy. In addition, some near-future adjustments we plan to make include but are not limited to: Changing the time slot for the training data collection, experimenting with low-high volatility companies, adding sell/buy action recommendations, and including various trading ways, such as futures, options, etc.
 
-2- Incorporating additional features: Considering factors such as social media sentiment, economic indicators, and company financial reports can make the model more robust and better equipped to predict stock prices. In addition, adding graphic plots would make understanding the results more efficient.
+2. Incorporating additional features: Considering factors such as social media sentiment, economic indicators, and company financial reports can make the model more robust and better equipped to predict stock prices. In addition, adding graphic plots would make understanding the results more efficient.
 
-3- Exploring ensemble methods: Combining LSTM networks with other machine learning techniques or employing multiple LSTM models with different input features can lead to more accurate predictions.
+3. Exploring ensemble methods: Combining LSTM networks with other machine learning techniques or employing multiple LSTM models with different input features can lead to more accurate predictions.
 
-4- Investigating uncertainty measures: Incorporating Bayesian NNs or other methods to quantify the uncertainty of predictions can provide valuable insights for investors.
+4. Investigating uncertainty measures: Incorporating Bayesian NNs or other methods to quantify the uncertainty of predictions can provide valuable insights for investors.
 Addressing overfitting and advanced regularization: By tackling the issue of overfitting and exploring advanced regularization techniques, our model's predictions could become more reliable when applied to new, unseen data.
 
-5- Performance comparison with other models: As we improve our model, it is essential to compare its performance with other existing models, such as traditional statistical models or alternative machine learning approaches. This will provide valuable insights into the model's strengths and weaknesses and guide further refinements.  
+5. Performance comparison with other models: As we improve our model, it is essential to compare its performance with other existing models, such as traditional statistical models or alternative machine learning approaches. This will provide valuable insights into the model's strengths and weaknesses and guide further refinements.  
 
-6- Exploring alternative deep learning architectures: Besides refining the existing LSTM model, it would be beneficial to investigate other deep learning architectures, such as Transformer models or Convolutional Neural Networks (CNNs), to determine whether they can yield better results for stock market prediction.  
+6. Exploring alternative deep learning architectures: Besides refining the existing LSTM model, it would be beneficial to investigate other deep learning architectures, such as Transformer models or Convolutional Neural Networks (CNNs), to determine whether they can yield better results for stock market prediction.  
 
-7- Personalized stock market predictions: Once our model's performance has been optimized, we could explore the potential of personalizing stock market predictions for individual investors. This would involve tailoring the model to consider specific investment goals, risk tolerance, and other individual factors, allowing investors to make more informed decisions based on their unique circumstances.
+7. Personalized stock market predictions: Once our model's performance has been optimized, we could explore the potential of personalizing stock market predictions for individual investors. This would involve tailoring the model to consider specific investment goals, risk tolerance, and other individual factors, allowing investors to make more informed decisions based on their unique circumstances.
 
-8- Integrating the model into a user-friendly platform: As the final step, we can work on integrating our refined stock market prediction model into a user-friendly platform or application. This would enable a broader audience to access and benefit from our model's predictions, making the stock market more approachable and understandable for both seasoned investors and novices alike.
+8. Integrating the model into a user-friendly platform: As the final step, we can work on integrating our refined stock market prediction model into a user-friendly platform or application. This would enable a broader audience to access and benefit from our model's predictions, making the stock market more approachable and understandable for both seasoned investors and novices alike.
 
-9- Trading limits: We only make a single trade a day based on the decision made by comparison between actual endprice from the day before and predicted price for the day. We do not consider the options to hold, so that is one thing we might incorporate in the future work of long-holding stocks.
+9. Trading limits: We only make a single trade a day based on the decision made by comparison between actual endprice from the day before and predicted price for the day. We do not consider the options to hold, so that is one thing we might incorporate in the future work of long-holding stocks.
 
-10- Transaction costs: We do not consider the transaction costs as real stock market life.
+10. Transaction costs: We do not consider the transaction costs as real stock market life.
 
 By focusing on these areas for future work, we can continue to refine and improve our stock market prediction model, ultimately providing valuable insights and tools to investors, financial analysts, and researchers in finance.
 
