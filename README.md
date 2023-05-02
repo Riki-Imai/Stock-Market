@@ -59,7 +59,28 @@ The dataset is preprocessed, normalized, and divided into training and testing s
 
 During the training phase, we can experiment with various hyperparameters, such as the number of layers in the LSTM network, the number of hidden units, and the dropout rate. Tuning these hyperparameters might help us achieve better prediction results. 
 
-(((INSERT TABLE HERE))) 
+<table>
+	<tbody>
+		<tr>
+			<th>Train/Validation Split Ratio</th>
+			<th>Batch Size</th>
+			<th>Number of Epochs</th>
+			<th>Learning Rate</th>
+			<th>Hidden Size (units in each LSTM cell)</th>
+      <th>Number of Layers</th>
+      <th>Dropout</th>
+		</tr>
+    <tr>
+			<th>0.8</th>
+			<th>64</th>
+			<th>300</th>
+			<th>0.01</th>
+			<th>64</th>
+      <th>2</th>
+      <th>0.8</th>
+		</tr>
+	</tbody>
+</table>
 
 We currently use hyperparameters as below. Additionally, we can explore other optimization techniques, such as learning rate schedules and weight initialization methods, to further improve the model's performance.
 
@@ -70,11 +91,54 @@ Our predictor currently only accepts the Stock name as an input and predicts the
 # Results
 
 We accomplished an accuracy of about 96 to 98% accuracy depending on the different stocks. 
-For example, our stock market predictor yields 4.715958510247087 % gains for S&P500 with an accuracy of 98.39800710345172 % over the assumed 7-day transaction; Dow Jones Industrial Average: 2.777528127483042 % gains with its accuracy of 98.9430870054851 %; NASDAQ: 6.419393572074417 % gains with its accuracy of 97.9430269653437%. 
+For example, here is our results for some index funds.
+
+<table>
+	<tbody>
+		<tr>
+			<th>Stock Name</th>
+			<th>7-day Gains/Losses</th>
+			<th>Accuracy</th>
+		</tr>
+    <tr>
+			<th>S&P500</th>
+			<th>4.715958510247087%</th>
+			<th>98.39800710345172 %</th>
+		</tr>
+    <tr>
+			<th>Dow Jones Industrial Average</th>
+			<th>2.777528127483042%</th>
+			<th>98.9430870054851%</th>
+		</tr>
+    <tr>
+			<th>NASDAQ</th>
+			<th>6.419393572074417%</th>
+			<th>97.9430269653437%</th>
+		</tr>
+	</tbody>
+</table>
 
 For the specific stocks, here are a few of the results from our predictor. 
-Apple (AAPL) 7-day Gain/Loss for Apple Inc.: 6.187403413378778% with an accuracy of 98.10325996116931%
-Alphabet Inc. (GOOG) 7-day Gain/Loss for Alphabet Inc.: 8.71070498232065% with an accuracy of 96.72385255792062%
+
+<table>
+	<tbody>
+		<tr>
+			<th>Stock Name</th>
+			<th>7-day Gains/Losses</th>
+			<th>Accuracy</th>
+		</tr>
+    <tr>
+			<th>Apple (AAPL)</th>
+			<th>6.187403413378778%</th>
+			<th>98.10325996116931%</th>
+		</tr>
+    <tr>
+			<th>Alphabet Inc. (GOOG)</th>
+			<th>8.71070498232065%</th>
+			<th>96.72385255792062%</th>
+		</tr>
+	</tbody>
+</table>
 
 During the evaluation phase, we noticed that the model's predictions were more accurate for some stocks than others. This could be attributed to the varying levels of volatility and predictability in different stocks, as well as the specific timeframes chosen for training and testing. Furthermore, we observed that the model performed better in predicting the overall trend of stock prices rather than the exact values.
 
