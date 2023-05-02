@@ -93,13 +93,6 @@ Our predictor currently only accepts the Stock name as an input and predicts the
 We accomplished an accuracy of about 96 to 98% accuracy depending on the different stocks. 
 For example, here is our results for some index funds.
 
-## Graph
-![Figure 1: S&P500](/Images/SP500.jpeg)
-![Figure 2: Dow Jones Industrial Average](/Images/DJI.jpeg)
-![Figure 3: NASDAQ](/Images/NASDAQ.jpeg)
-![Figure 4: Apple (AAPL)](/Images/Apple.jpeg)
-![Figure 5: Alphabet Inc. (GOOG)](/Images/Google.jpeg)
-
 ### Index
 <table>
 	<tbody>
@@ -148,6 +141,13 @@ For the specific stocks, here are a few of the results from our predictor.
 		</tr>
 	</tbody>
 </table>
+
+## Graph
+![Figure 1: S&P500](/Images/SP500.jpeg)
+![Figure 2: Dow Jones Industrial Average](/Images/DJI.jpeg)
+![Figure 3: NASDAQ](/Images/NASDAQ.jpeg)
+![Figure 4: Apple (AAPL)](/Images/Apple.jpeg)
+![Figure 5: Alphabet Inc. (GOOG)](/Images/Google.jpeg)
 
 During the evaluation phase, we noticed that the model's predictions were more accurate for some stocks than others. This could be attributed to the varying levels of volatility and predictability in different stocks, as well as the specific timeframes chosen for training and testing. Furthermore, we observed that the model performed better in predicting the overall trend of stock prices rather than the exact values.
 
