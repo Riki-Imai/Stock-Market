@@ -63,6 +63,8 @@ The dataset is preprocessed, normalized, and divided into training and testing s
 
 During the training phase, we can experiment with various hyperparameters, such as the number of layers in the LSTM network, the number of hidden units, and the dropout rate. Tuning these hyperparameters might help us achieve better prediction results. 
 
+We currently use hyperparameters as below. Additionally, we can explore other optimization techniques, such as learning rate schedules and weight initialization methods, to further improve the model's performance.
+
 <table>
 	<tbody>
 		<tr>
@@ -85,8 +87,6 @@ During the training phase, we can experiment with various hyperparameters, such 
 		</tr>
 	</tbody>
 </table>
-
-We currently use hyperparameters as below. Additionally, we can explore other optimization techniques, such as learning rate schedules and weight initialization methods, to further improve the model's performance.
 
 For the actual transaction, we assume to make a decision a day with the closing price to sell or buy based on the comparison between today’s market price and tomorrow’s expected price. If today’s market price is lower than expected tomorrow’s price, our predictor would recommend to “buy” the stock. If the opposite happens, our predictor yields the recommended action to “sell.” Please note that for the sake of prediction to be simple, our predictor currently considers only closing prices and does not consider transaction costs and options to hold or other transaction methods such as future or option. Our predictor would yield expected gains and losses for these recommended action and overall gains and losses with an accuracy of its predictions if available.
 
